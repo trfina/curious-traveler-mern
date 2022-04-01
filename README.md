@@ -3,7 +3,7 @@
 [![license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## <a name="Description">Description</a>
-Curious travelers love unique, hidden places on their journeys.  Browse the collection of places that have already been discovered.  Users can sign up and share their own adventures and comment on others.
+Curious travelers love unique, hidden places on their journeys!  Browse the collection of places that have already been discovered.  Members can sign up and share their own adventures and comment on others.
 
 The link to the deployed application is here:
 
