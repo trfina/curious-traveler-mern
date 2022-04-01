@@ -48,9 +48,20 @@ share
 GitHub Username:
 trfina
 
-Additional Questions?  Contact me at:
-finatammy@gmail.com
+Additional Questions?  Contact us:
+
+GitHub Username:
+cmerry1
+
+Additional Questions?  Contact us at:
+- cmdebrosse@outlook.com
+- gthawkins24
+- cmerrym1@kent.edu
+- finatammy@gmail.com
+
 
 <p align='center'><i>
-   @ 2022 This README was generated with ❤️ by Chuck DeBrosse, Tyler Hawkins, Cheri Merryman, Tammy Fina
+   @ 2022 This README was generated with ❤️ by the Curious Traveler
   </i></p>
+
+finatammy@gmail.com
