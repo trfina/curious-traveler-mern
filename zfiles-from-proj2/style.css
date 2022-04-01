@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  color: black;
+  font-weight: bold;
+  background-color: tan;
+}
+
+body {
+  background-image: url("/images/map.png");
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  font-weight: bold;
+  transition: color .1s;
+  padding: 5px;
+  border-radius: 25px;
+}
+
+button {
+  background-color: black;
+  border: 0;
+  padding: 1%;
+  color: white;
+  font-weight: bold;
+  transition: background-color .1s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  border: solid 1px black;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  background-color: rgb(175, 114, 45);
+}
+
+textarea, input {
+  padding: .5%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+textarea:focus, input:focus {
+  outline: none;
+  border: 1px solid #3486eb;
+}
+
+textarea {
+  min-width: 40%;
+  min-height: 100px;
+}
+
+form > div {
+  margin-bottom: 2%;
+}
+
+form label {
+  display: block;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  padding: 3px;
+  width: 183px;
+  border-radius: 5px;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+
+.container {
+  margin: 0 auto;
+  background-color: rgb(175, 114, 45);
+}
+
+header {
+  border-bottom: 1px solid #654321;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1%;
+}
+
+.cat img {
+  width: 100%
+}
+
+.ribbon img {
+  width: 100%
+}
+
+.ribbon a {
+  background-color: transparent;
+  margin: 0px;
+}
+
+header img {
+  margin: 20px 0px 20px 0px;
+}
+
+main {
+  flex: 1;
+  padding: 2% 4%;
+}
+
+.btn-no-style {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  transition: color .1s;
+  padding: 5px;
+  border-radius: 25px;
+  margin-top: 10px;
+  font-size: 16px;
+  width: 90px;
+  text-align: center;
+}
+
+.logout-button :hover {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.delete-post-btn {
+  background-color: #471e1e;
+}
+
+.delete-post-btn:hover {
+  background-color: #ff643d;
+}
+
+.post {
+  margin-bottom: 2%;
+  line-height: 150%;
+}
+
+.title {
+  margin-bottom: 2%;
+}
+
+.post-list {
+  line-height: 75px;
+  margin: 0;
+  padding: 0;
+}
+.post .title span {
+  font-style: italic;
+  font-size: 90%;
+  color: white;
+  font-weight: bold;
+}
+
+.list {
+  margin-top: 10px;
+}
+
+.edit-link {
+  display: block;
+  margin: -1.5% 0 2% 0;
+}
+
+.comment-form {
+  margin-bottom: 5%;
+}
+
+.comment {
+  padding: 1%;
+  margin-bottom: 1%;
+}
+
+.comment:nth-child(odd) {
+  background-color: white;
+}
+
+.comment .meta {
+  font-size: 90%;
+  margin-bottom: .5%;
+  opacity: .6;
+}
+
+.new-post-form input {
+  width: 300px;
+}
+
+.edit-post-form {
+  margin-bottom: 5%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+  font-size: 110%;
+}
