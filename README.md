@@ -9,9 +9,9 @@ The link to the deployed application is here:
 
 [Repository for this Project](https://github.com/trfina/curious-traveler-mern)
 
-![Finished Mock Up](./public/tech-blog-screen.png)
+![Finished Mock Up](./zfiles-from-proj2/models/images/homepage-screenshot.png)
 
-## Table of Contents
+## Table of Contents)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
