@@ -5,8 +5,6 @@
 ## <a name="Description">Description</a>
 Curious travelers love unique, hidden places on their journeys!  Browse the collection of places that have already been discovered.  Members can sign up and share their own adventures and comment on others.
 
-The link to the deployed application is here:
-
 [Repository for this Project](https://github.com/trfina/curious-traveler-mern)
 
 ![Finished Mock Up](./zfiles-from-proj2/models/images/Homepage-Screenshot.JPG)
