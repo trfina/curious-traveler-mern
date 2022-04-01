@@ -9,7 +9,7 @@ The link to the deployed application is here:
 
 [Repository for this Project](https://github.com/trfina/curious-traveler-mern)
 
-![Finished Mock Up](./zfiles-from-proj2/models/images/homepage-screenshot.JPG)
+![Finished Mock Up](./zfiles-from-proj2/models/images/Homepage-Screenshot.JPG)
 
 ## Table of Contents)
 * [Installation](#installation)
@@ -63,5 +63,3 @@ Additional Questions?  Contact us at:
 <p align='center'><i>
    @ 2022 This README was generated with ❤️ by the Curious Traveler
   </i></p>
-
-finatammy@gmail.com
