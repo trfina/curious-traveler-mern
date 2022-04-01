@@ -52,5 +52,5 @@ Additional Questions?  Contact me at:
 finatammy@gmail.com
 
 <p align='center'><i>
-   @ 2022 This README was generated with ❤️ by Chuck DeBrosse, Tyler Hawkin, Cheri Merryman, Tammy Fina
+   @ 2022 This README was generated with ❤️ by Chuck DeBrosse, Tyler Hawkins, Cheri Merryman, Tammy Fina
   </i></p>
