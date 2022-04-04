@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "watch": "nodemon",
+    "watch": "nodemon server.js",
     "seed": "node seeders/seeds.js"
   },
   "keywords": [],
@@ -17,7 +17,9 @@
     "express": "^4.17.1",
     "faker": "^4.1.0",
     "graphql": "^16.3.0",
-    "mongoose": "^5.13.14"
+    "graphql-playground-react": "^1.7.28",
+    "mongoose": "^5.13.14",
+    "react-redux": "^7.2.8"
   },
   "devDependencies": {
     "nodemon": "^2.0.3"
