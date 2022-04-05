@@ -11,7 +11,6 @@ const typeDefs = gql`
     thoughts: [Thought]
     friends: [User]
   }
-
   type Thought {
     _id: ID
     thoughtText: String
