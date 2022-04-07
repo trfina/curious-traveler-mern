@@ -20,6 +20,7 @@
     "graphql-playground-react": "^1.7.28",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.13.14",
+    "react": "^18.0.0",
     "react-redux": "^7.2.8"
   },
   "devDependencies": {
