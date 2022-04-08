@@ -1,31 +1,43 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
+import cornfield from "../../assets/field-of-corn.jpeg";
 
-const ThoughtList = ({ thoughts, title }) => {
-    if (!thoughts.length) {
-        return <h3>No Thoughts Yet</h3>;
-}
+const ThoughtList = ({ thoughts }) => {
+  if (!thoughts.length) {
+    return <h3>No Thoughts Yet</h3>;
+  }
 
-return (
+  return (
     <div>
-    <h3>{title}</h3>
-    {thoughts &&
-        thoughts.map(thought => (
-        <div key={thought._id} className="card mb-3">
+      {thoughts &&
+        thoughts.map((thought) => (
+          <div key={thought._id} className="card mb-3">
             <p className="card-header">
-            {thought.username}
-            thought on {thought.createdAt}
+              <Link
+                to={`/profile/${thought.username}`}
+                style={{ fontWeight: 700 }}
+                className="text-light"
+              >
+                {thought.username}
+              </Link>{" "}
+              thought on {thought.createdAt}
             </p>
+
+            <img className="p-3" src={cornfield} width={300} height={300} />
+
             <div className="card-body">
-            <p>{thought.thoughtText}</p>
-            <p className="mb-0">
-                Reactions: {thought.reactionCount} || Click to{' '}
-                {thought.reactionCount ? 'see' : 'start'} the discussion!
-            </p>
+              <Link to={`/thought/${thought._id}`}>
+                <p>{thought.thoughtText}</p>
+                <p className="mb-0">
+                  Reactions: {thought.reactionCount} || Click to{" "}
+                  {thought.reactionCount ? "see" : "start"} the discussion!
+                </p>
+              </Link>
             </div>
-        </div>
+          </div>
         ))}
     </div>
-);
+  );
 };
 
 export default ThoughtList;
