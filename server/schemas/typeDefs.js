@@ -18,6 +18,8 @@ const typeDefs = gql`
     username: String
     reactionCount: Int
     reactions: [Reaction]
+    link: String
+    image: String
   }
 
   type Auth {
