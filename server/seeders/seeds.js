@@ -10,7 +10,7 @@ db.once('open', async () => {
   // create user data
   const userData = [];
 
-  for (let i = 0; i < 50; i += 1) {
+  for (let i = 0; i < 10; i += 1) {
     const username = faker.internet.userName();
     const email = faker.internet.email(username);
     const password = faker.internet.password();
@@ -37,13 +37,14 @@ db.once('open', async () => {
 
   // create thoughts
   let createdThoughts = [];
-  for (let i = 0; i < 100; i += 1) {
+  for (let i = 0; i < 10; i += 1) {
     const thoughtText = faker.lorem.words(Math.round(Math.random() * 20) + 1);
-
+    const link = 'https://www.bookloft.com';
+    const image = './assets/photos/book-loft-inside.js'
     const randomUserIndex = Math.floor(Math.random() * createdUsers.ops.length);
     const { username, _id: userId } = createdUsers.ops[randomUserIndex];
 
-    const createdThought = await Thought.create({ thoughtText, username });
+    const createdThought = await Thought.create({ thoughtText, username, link, image });
 
     const updatedUser = await User.updateOne(
       { _id: userId },
