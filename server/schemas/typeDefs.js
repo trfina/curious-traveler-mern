@@ -50,10 +50,6 @@ const typeDefs = gql`
     addFriend(friendId: ID!): User
   }
 
-  type Auth {
-    token: ID!
-    user: User
-  }
 `;
 // export the typeDefs
 module.exports = typeDefs;
