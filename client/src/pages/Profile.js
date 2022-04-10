@@ -50,12 +50,9 @@ const Profile = () => {
 
       <div className="flex-row mb-3">
         <h2 className="bg-dark text-secondary p-3 display-inline-block">
-<<<<<<< HEAD
           Viewing {userParam ? `${user.username}'s` : "your"} travel profile
           console.log({user.username});
-=======
           Viewing {userParam ? `${user.username}'s` : 'your'} profile.
->>>>>>> 3d3f5c5f6fdcd0de0d6aad29aee6e35b76609aa7
         </h2>
 
         {userParam && (
