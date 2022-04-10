@@ -3,12 +3,13 @@ import { useParams } from "react-router-dom";
 import { useQuery } from "@apollo/client";
 import { QUERY_THOUGHT } from "../utils/queries";
 import ReactionList from "../components/ReactionList";
-import cornfield from "../assets/field-of-corn.jpeg";
+import cornfield from "../assets/photos/book-loft-inside.jpg";
 
 const SingleThought = (props) => {
   const { id: thoughtId } = useParams();
+  console.log(thoughtId);
   const { loading, data } = useQuery(QUERY_THOUGHT, {
-    variables: { id: thoughtId },
+    variables: { id: thoughtId }
   });
   const thought = data?.thought || {};
 
@@ -26,14 +27,14 @@ const SingleThought = (props) => {
           Destination shared on {thought.createdAt}
         </p>
         <div className="card-body">
-          <img src={cornfield} width={500} height={500} />
+          <img src={cornfield} alt={""} width={500} height={500} />
           <p>{thought.thoughtText}</p>
         </div>
       </div>
 
-      {thought.reactionCount > 0 && (
+      {thought.reactionCount > 0 && 
         <ReactionList reactions={thought.reactions} />
-      )}
+      }
     </div>
   );
 };

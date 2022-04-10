@@ -27,14 +27,14 @@ const ThoughtList = ({ thoughts }) => {
               thought on {thought.createdAt}
             </p>
 
-            <img className="p-3" src={cornfield} width={300} height={300} />
+            <img className="p-3" src={cornfield} alt="" width={300} height={300} />
 
             <div className="card-body">
               <Link to={`/thought/${thought._id}`}>
                 <p>{thought.thoughtText}</p>
                 <p className="mb-0">
                   Reactions: {thought.reactionCount} || Click to{" "}
-                  {thought.reactionCount ? "see" : "start"} the discussion!
+                  {thought.reactionCount ? "see" : "start"} destinations!
                 </p>
               </Link>
             </div>

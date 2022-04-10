@@ -26,6 +26,8 @@ export const QUERY_THOUGHT = gql`
       thoughtText
       createdAt
       username
+      link
+      image
       reactionCount
       reactions {
         _id
@@ -52,6 +54,8 @@ export const QUERY_USER = gql`
         _id
         thoughtText
         createdAt
+        link
+        image
         reactionCount
       }
     }
@@ -69,6 +73,8 @@ export const QUERY_ME = gql`
         _id
         thoughtText
         createdAt
+        link
+        image
         reactionCount
         reactions {
           _id
