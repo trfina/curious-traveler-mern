@@ -21,12 +21,18 @@ const Home = () => {
           {loading ? (
             <div>Loading...</div>
           ) : (
-            <ThoughtList thoughts={thoughts} />
+            <ThoughtList
+              thoughts={thoughts}
+            />
           )}
         </div>
         {loggedIn && userData ? (
           <div className="col-12 col-lg-3 mb-3">
-            <FriendList />
+            <FriendList
+              //username={userData.me.username}
+              //friendCount={userData.me.friendCount}
+              //friends={userData.me.friends}
+            />
           </div>
         ) : null}
       </div>
