@@ -1,10 +1,12 @@
 import React from "react";
 import { Redirect, useParams } from "react-router-dom";
-import { useQuery } from "@apollo/client";
+import { ADD_FRIEND } from '../utils/mutations';
+import { useQuery, useMutation } from '@apollo/client';
 import { QUERY_USER, QUERY_ME } from "../utils/queries";
 import ThoughtList from "../components/ThoughtList";
 import FriendList from "../components/FriendList";
 import Auth from "../utils/auth";
+import ThoughtForm from '../components/ThoughtForm';
 
 const Profile = () => {
   const { username: userParam } = useParams();
@@ -14,7 +16,7 @@ const Profile = () => {
   });
 
   const user = data?.me || data?.user || {};
-
+  const [addFriend] = useMutation(ADD_FRIEND);
   // redirect to personal profile page if username is the logged-in user's
   if (Auth.loggedIn() && Auth.getProfile().data.username === userParam) {
     return <Redirect to="/profile" />;
@@ -33,17 +35,35 @@ const Profile = () => {
       </h4>
     );
   }
-
+  const handleClick = async () => {
+    try {
+      await addFriend({
+        variables: { id: user._id }
+      });
+    } catch (e) {
+      console.error(e);
+    }
+  };
   return (
     <div>
       console.log({user.username});
 
       <div className="flex-row mb-3">
         <h2 className="bg-dark text-secondary p-3 display-inline-block">
+<<<<<<< HEAD
           Viewing {userParam ? `${user.username}'s` : "your"} travel profile
           console.log({user.username});
+=======
+          Viewing {userParam ? `${user.username}'s` : 'your'} profile.
+>>>>>>> 3d3f5c5f6fdcd0de0d6aad29aee6e35b76609aa7
         </h2>
-        
+
+        {userParam && (
+  <button className="btn ml-auto" onClick={handleClick}>
+    Add Friend
+  </button>
+)}
+
       </div>
       
       <div className="flex-row justify-space-between mb-3">
@@ -63,6 +83,7 @@ const Profile = () => {
           />
         </div>
       </div>
+      <div className="mb-3">{!userParam && <ThoughtForm />}</div>
     </div>
   );
 };

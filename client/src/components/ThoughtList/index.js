@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 import cornfield from "../../assets/field-of-corn.jpeg";
 
 const ThoughtList = ({ thoughts }) => {
-  // if (!thoughts.length) {
-  //   return (
-  //     <div>
-  //       <h3>No Thoughts Yet</h3>
-  //     </div>
-  //   );
-  // }
+  if (!thoughts.length) {
+     return (
+       <div>
+         <h3>No Thoughts Yet</h3>
+       </div>
+     );
+   }
 
   return (
     <div>
