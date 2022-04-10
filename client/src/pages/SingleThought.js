@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { useParams } from 'react-router-dom';
 
@@ -12,9 +11,8 @@ import { QUERY_THOUGHT } from '../utils/queries';
 const SingleThought = (props) => {
   const { id: thoughtId } = useParams();
 
-
   const { loading, data } = useQuery(QUERY_THOUGHT, {
-    variables: { id: thoughtId }
+    variables: { id: thoughtId },
   });
 
   const thought = data?.thought || {};
@@ -33,17 +31,15 @@ const SingleThought = (props) => {
           thought on {thought.createdAt}
         </p>
         <div className="card-body">
-          <img src={cornfield} alt={""} width={500} height={500} />
           <p>{thought.thoughtText}</p>
         </div>
       </div>
 
-      {thought.reactionCount > 0 && 
+      {thought.reactionCount > 0 && (
         <ReactionList reactions={thought.reactions} />
       )}
 
       {Auth.loggedIn() && <ReactionForm thoughtId={thought._id} />}
-      }
     </div>
   );
 };
