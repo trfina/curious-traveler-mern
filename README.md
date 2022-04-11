@@ -3,11 +3,15 @@
 [![license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## <a name="Description">Description</a>
-Curious travelers love unique, hidden places on their journey.  Browse the collection of places that have already been discovered.  Users can sign up and share their own adventures and comment on others.
+Curious travelers love unique, hidden stop spots on their treks.  Browse our collection of peculiar, offbeat places that have been explored by other travelers.  Users can sign up and share their own adventures and comment on other travelers' journeys.
+
+Curious Traveler is created as a MERN stack single-page application. This application uses React for the front end, GraphQL with Node.js and Express.js server, and MongoDB and the Mongoose ODFM for the database.
 
 The link to the deployed application is here:
 
 [Repository for this Project](https://github.com/trfina/curious-traveler-mern)
+[Heroku repostitory for this Project](https://github.com/trfina/curious-traveler-mern)
+
 
 ![Finished Mock Up]
 
@@ -21,10 +25,13 @@ The link to the deployed application is here:
 * [Questions](#questions)
 
 ## Installation
-press the button
+clone the starter code<br>
+``npm install`` from /root<br>
+``npm install`` from /client<br>
+``npm install`` from /server<br>
 
 ## Usage
-coming soon
+``npm run develop`` from /root starts the application
 
 ## Contributing
 coming soon
