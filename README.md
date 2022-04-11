@@ -28,7 +28,7 @@ The link to the deployed application is here:
 press the button
 
 ## Usage
-'npm run develop' from /root starts the application
+``npm run develop`` from /root starts the application
 
 ## Contributing
 coming soon
