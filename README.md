@@ -26,7 +26,7 @@ The link to the deployed application is here:
 
 ## Installation
 clone the starter code
-``npm install'' from /root
+``npm install`` from /root
 ``npm install`` from /client
 ``npm install`` from /server
 
