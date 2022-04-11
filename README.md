@@ -5,9 +5,13 @@
 ## <a name="Description">Description</a>
 Curious travelers love unique, hidden places on their journey.  Browse the collection of places that have already been discovered.  Users can sign up and share their own adventures and comment on others.
 
+Curious Traveler is created as a MERN stack single-page application. This application uses React for the front end, GraphQL with Node.js and Express.js server, and MongoDB and the Mongoose ODFM for the database.
+
 The link to the deployed application is here:
 
 [Repository for this Project](https://github.com/trfina/curious-traveler-mern)
+[Heroku repostitory for this Project](https://github.com/trfina/curious-traveler-mern)
+
 
 ![Finished Mock Up]
 
