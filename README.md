@@ -3,7 +3,7 @@
 [![license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## <a name="Description">Description</a>
-Curious travelers love unique, hidden places on their journey.  Browse the collection of places that have already been discovered.  Users can sign up and share their own adventures and comment on others.
+Curious travelers love unique, hidden stop spots on their treks.  Browse our collection of places that have been explored by other travelers.  Users can sign up and share their own adventures and comment on other travelers' journeys.
 
 Curious Traveler is created as a MERN stack single-page application. This application uses React for the front end, GraphQL with Node.js and Express.js server, and MongoDB and the Mongoose ODFM for the database.
 
