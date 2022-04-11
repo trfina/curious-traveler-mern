@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import cornfield from "../../assets/field-of-corn.jpeg";
+//import cornfield from "../../assets/field-of-corn.jpeg";
 
 const ThoughtList = ({ thoughts }) => {
   if (!thoughts.length) {
