@@ -25,7 +25,10 @@ The link to the deployed application is here:
 * [Questions](#questions)
 
 ## Installation
-press the button
+clone the starter code
+``npm install'' from /root
+``npm install`` from /client
+``npm install`` from /server
 
 ## Usage
 ``npm run develop`` from /root starts the application
