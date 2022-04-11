@@ -25,10 +25,10 @@ The link to the deployed application is here:
 * [Questions](#questions)
 
 ## Installation
-clone the starter code
-``npm install`` from /root
-``npm install`` from /client
-``npm install`` from /server
+clone the starter code<br>
+``npm install`` from /root<br>
+``npm install`` from /client<br>
+``npm install`` from /server<br>
 
 ## Usage
 ``npm run develop`` from /root starts the application
