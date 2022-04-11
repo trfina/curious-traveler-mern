@@ -4,12 +4,12 @@ import cornfield from "../../assets/field-of-corn.jpeg";
 
 const ThoughtList = ({ thoughts }) => {
   if (!thoughts.length) {
-     return (
-       <div>
-         <h3>No Thoughts Yet</h3>
-       </div>
-     );
-   }
+      return (
+        <div>
+          <h3>No Thoughts Yet</h3>
+        </div>
+      );
+  }
 
   return (
     <div>
@@ -26,8 +26,8 @@ const ThoughtList = ({ thoughts }) => {
               </Link>{" "}
               thought on {thought.createdAt}
             </p>
-
-            <img className="p-3" src={cornfield} alt="" width={300} height={300} />
+            <img className="p-3" src={`http://localhost:3000/uploads/${thought.image}`} alt="" width={300} height={300} />
+            {/* <img className="p-3" src={cornfield} alt="" width={300} height={300} /> */}
 
             <div className="card-body">
               <Link to={`/thought/${thought._id}`}>
