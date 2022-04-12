@@ -57,7 +57,7 @@ const ThoughtForm = () => {
   };
 
   return (
-    <div className="container bg-dark text-light p-3">
+    <div className="container bg-primary text-light p-3">
       <h3 className="form-label">Submit your trip ideas here!</h3>
       <form
         className="flex justify-center justify-space-between-md align-stretch m-3"
