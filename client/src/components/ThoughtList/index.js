@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import cornfield from "../../assets/images/field-of-corn.jpeg";
+
 const ThoughtList = ({ thoughts }) => {
   if (!thoughts.length) {
     return (
@@ -12,9 +14,9 @@ const ThoughtList = ({ thoughts }) => {
 
   return (
     <div>
-      {thoughts &&
-        thoughts.map((thought) => (
-          <div key={thought._id} className="card mb-3">
+      {thoughts && thoughts.map((thought) => (
+        <div key={thought._id} className="card mb-3">
+            <div>
             <p className="card-header">
               <Link
                 to={`/profile/${thought.username}`}
@@ -23,28 +25,30 @@ const ThoughtList = ({ thoughts }) => {
               >
                 {thought.username}
               </Link>{" "}
-              thought on {thought.createdAt}
+              New travel spot added on {thought.createdAt}
             </p>
-            <img
+            {/* <img
               className="p-3"
               src={`http://localhost:3000/uploads/${thought.image}`}
               alt=""
               width={300}
               height={300}
-            />
-            {/* <img className="p-3" src={cornfield} alt="" width={300} height={300} /> */}
+            /> */}
+            
+              <div className="card-body">
+                  <Link to={`/thought/${thought._id}`}>
+                    <p>{thought.thoughtText}</p>
+                    <img className="p-3" src={cornfield} alt="" width={100} height={100} />
+                    <p className="mb-0">
+                      Reactions: {thought.reactionCount} || Click to{" "}
+                      {thought.reactionCount ? "see" : "start"} destinations!
+                    </p>  
+                  </Link>
+              </div>
 
-            <div className="card-body">
-              <Link to={`/thought/${thought._id}`}>
-                <p>{thought.thoughtText}</p>
-                <p className="mb-0">
-                  Reactions: {thought.reactionCount} || Click to{" "}
-                  {thought.reactionCount ? "see" : "start"} destinations!
-                </p>
-              </Link>
             </div>
-          </div>
-        ))}
+        </div>
+    ))}
     </div>
   );
 };
