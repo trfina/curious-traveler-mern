@@ -10,9 +10,10 @@ const ReactionList = ({ reactions }) => {
       <div className="card-body">
         {reactions &&
           reactions.map((reaction) => (
-            <p className="pill mb-3" key={reaction._id}>
-              {reaction.reactionBody} {"// "}
+            <p className="mb-3" key={reaction._id}>
+              " {reaction.reactionBody} " {" 👉 "}
               <Link
+                className="pill"
                 to={`/profile/${reaction.username}`}
                 style={{ fontWeight: 700 }}
               >
