@@ -46,6 +46,8 @@ export const ADD_THOUGHT = gql`
       createdAt
       username
       reactionCount
+      linkURL
+      imageURL
       reactions {
         _id
       }
