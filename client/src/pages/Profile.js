@@ -59,7 +59,8 @@ const Profile = () => {
 
       <div className="flex-row justify-space-between mb-3">
         {/* the following div element is not rendering */}
-        <div className="col-12 mb-3 col-lg-8">
+        <div>
+          className="col-12 mb-3 col-lg-8">
           <ThoughtList
             thoughts={user.thoughts}
             title={`${user.username}'s curious destinations...`}
@@ -74,6 +75,7 @@ const Profile = () => {
           />
         </div>
       </div>
+      
       <div className="mb-3">{!userParam && <ThoughtForm />}</div>
     </div>
   );
