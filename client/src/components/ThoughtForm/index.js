@@ -69,7 +69,7 @@ const ThoughtForm = () => {
           placeholder="www.destination.com"
         />
         <textarea
-          placeholder="Here's a new thought..."
+          placeholder="Here's a curious travel spot..."
           value={thoughtText}
           className="form-input col-12 col-md-9"
           onChange={handleChange}

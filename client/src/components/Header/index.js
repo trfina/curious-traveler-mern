@@ -13,7 +13,7 @@ const Header = () => {
     <header className="bg-primary mb-4 py-2 flex-row align-center">
       <div className="container flex-row justify-space-between-lg justify-center align-center">
         <Link className="w-25" to="/">
-          <img className="logo" src={ribbonLogo} alt="Curious Traveler Logo" />
+          <h1>Curious Traveler</h1>
         </Link>
 
         <nav className="text-center">
