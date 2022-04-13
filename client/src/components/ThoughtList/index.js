@@ -37,7 +37,7 @@ const ThoughtList = ({ thoughts }) => {
               <div className="card-body">
                   <Link to={`/thought/${thought._id}`}>
                     <p>{thought.thoughtText}</p>
-                    <img className="p-3" src={cornfield} alt="" width={100} height={100} />
+                    <img className="p-3" src={cornfield} alt="" width={200} height={200} />
                     <p className="mb-0">
                       Reactions: {thought.reactionCount} || Click to{" "}
                       {thought.reactionCount ? "see" : "start"} destinations!
