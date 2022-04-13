@@ -44,7 +44,7 @@ db.once('open', async () => {
     const randomUserIndex = Math.floor(Math.random() * createdUsers.ops.length);
     const { username, _id: userId } = createdUsers.ops[randomUserIndex];
 
-    const createdThought = await Thought.create({ thoughtText, username, link, image });
+    const createdThought = await Thought.create({ thoughtText, username, linkURL, imageURL });
 
     const updatedUser = await User.updateOne(
       { _id: userId },
