@@ -1,3 +1,4 @@
+import React from "react";
 import {
   ApolloProvider,
   ApolloClient,
@@ -5,7 +6,6 @@ import {
   createHttpLink,
 } from "@apollo/client";
 import { setContext } from "@apollo/client/link/context";
-import React from "react";
 import background from "./assets/map.png";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
