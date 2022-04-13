@@ -26,13 +26,13 @@ const ThoughtList = ({ thoughts }) => {
               </Link>{" "}
               New travel spot added on {thought.createdAt}
             </p>
-            {/* <img
+            <img
               className="p-3"
-              src={`http://localhost:3000/uploads/${thought.image}`}
+              src={`http://localhost:3000/uploads/${thought.imageURL}`}
               alt=""
-              width={300}
-              height={300}
-            /> */}
+              width={250}
+              height={250}
+            />
             
               <div className="card-body">
                   <Link to={`/thought/${thought._id}`}>
