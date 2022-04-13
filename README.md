@@ -32,30 +32,18 @@ clone the starter code<br>
 
 ## Usage
 ``npm run develop`` from /root starts the application
-
-## Contributing
-coming soon
-    
-## Tests
-coming soon
-    
-## Credits
-share
     
 ## License
 
 [![license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT/)
 
-## Badges
-
-## Features
-
-## Questions
-
 GitHub Username:
 trfina
 
-Additional Questions?  Contact me at:
+Additional Questions?  Contact me us:
+Cheri Merryman
+Tyler Hawkins
+Chuck DeBrosse
 finatammy@gmail.com
 
 <p align='center'><i>
