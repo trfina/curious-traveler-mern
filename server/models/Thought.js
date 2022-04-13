@@ -20,10 +20,10 @@ const thoughtSchema = new Schema(
       required: true
     },
     reactions: [reactionSchema],
-    link: {
+    linkURL: {
       type: String
     },
-    image: {
+    imageURL: {
       type: String
     },
   },
