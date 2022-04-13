@@ -14,8 +14,8 @@ export const QUERY_THOUGHTS = gql`
         username
         reactionBody
       }
-      link
-      image
+      linkURL
+      imageURL
     }
   }
 `;
@@ -34,8 +34,8 @@ export const QUERY_THOUGHT = gql`
         username
         reactionBody
       }
-      link
-      image
+      linkURL
+      imageURL
     }
   }
 `;

@@ -50,11 +50,12 @@ const Profile = () => {
           Viewing {userParam ? `${user.username}'s` : "your"} travel journal...
         </h2>
 
-        {userParam && (
+        {/* Adding Friend not active yet */}
+        {/* {userParam && (
           <button className="btn ml-auto" onClick={handleClick}>
             Add Friend
           </button>
-        )}
+        )} */}
       </div>
 
       <div className="flex-row justify-space-between mb-3">
