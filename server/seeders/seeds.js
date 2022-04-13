@@ -10,7 +10,7 @@ db.once('open', async () => {
   // create user data
   const userData = [];
 
-  for (let i = 0; i < 10; i += 1) {
+  for (let i = 0; i < 3; i += 1) {
     const username = faker.internet.userName();
     const email = faker.internet.email(username);
     const password = faker.internet.password();
@@ -21,7 +21,7 @@ db.once('open', async () => {
   const createdUsers = await User.collection.insertMany(userData);
 
   // create friends
-  for (let i = 0; i < 5; i += 1) {
+  for (let i = 0; i < 3; i += 1) {
     const randomUserIndex = Math.floor(Math.random() * createdUsers.ops.length);
     const { _id: userId } = createdUsers.ops[randomUserIndex];
 
@@ -37,10 +37,10 @@ db.once('open', async () => {
 
   // create thoughts
   let createdThoughts = [];
-  for (let i = 0; i < 10; i += 1) {
-    const thoughtText = "Full of surprises around every corner!";
-    const link = 'https://www.bookloft.com';
-    const image = './assets/photos/book-loft-inside.js'
+  for (let i = 0; i < 5; i += 1) {
+    const thoughtText = "I found this spot whil traveling today...";
+    const linkURL = 'https://www.destination.com';
+    const imageURL = './uploads/no-image-placeholder.jpg'
     const randomUserIndex = Math.floor(Math.random() * createdUsers.ops.length);
     const { username, _id: userId } = createdUsers.ops[randomUserIndex];
 
@@ -55,7 +55,7 @@ db.once('open', async () => {
   }
 
   // create reactions
-  for (let i = 0; i < 20; i += 1) {
+  for (let i = 0; i < 3 ; i += 1) {
     const reactionBody = "Thanks for the recommendation!";
 
     const randomUserIndex = Math.floor(Math.random() * createdUsers.ops.length);
