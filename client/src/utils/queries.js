@@ -14,8 +14,8 @@ export const QUERY_THOUGHTS = gql`
         username
         reactionBody
       }
-      link
-      image
+      linkURL
+      imageURL
     }
   }
 `;
@@ -34,8 +34,8 @@ export const QUERY_THOUGHT = gql`
         username
         reactionBody
       }
-      link
-      image
+      linkURL
+      imageURL
     }
   }
 `;
@@ -55,8 +55,8 @@ export const QUERY_USER = gql`
         _id
         thoughtText
         createdAt
-        link
-        image
+        linkURL
+        imageURL
         reactionCount
       }
     }
@@ -81,8 +81,8 @@ export const QUERY_ME = gql`
           reactionBody
           username
         }
-        link
-        image
+        linkURL
+        imageURL
       }
       friends {
         _id
