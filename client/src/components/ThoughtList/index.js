@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import cornfield from "../../assets/images/field-of-corn.jpeg";
+// import cornfield from "../../assets/images/field-of-corn.jpeg";
 
 const ThoughtList = ({ thoughts }) => {
   if (!thoughts.length) {
@@ -26,23 +26,29 @@ const ThoughtList = ({ thoughts }) => {
               </Link>{" "}
               New travel spot added on {thought.createdAt}
             </p>
-            <img
-              className="p-3"
-              src={`http://localhost:3000/uploads/${thought.imageURL}`}
-              alt=""
-              width={250}
-              height={250}
-            />
+            
             
               <div className="card-body">
                   <Link to={`/thought/${thought._id}`}>
                     <p>{thought.thoughtText}</p>
-                    <img className="p-3" src={cornfield} alt="" width={200} height={200} />
+                    {/* <img className="p-3" src={cornfield} alt="" width={200} height={200} /> */}
+                    
+                    <img
+                      className="p-3"
+                      src={`http://localhost:3000/uploads/${thought.imageURL}`}
+                      alt=""
+                      width={250}
+                      height={250}
+                    />
+                    
                     <p className="mb-0">
                       Reactions: {thought.reactionCount} || Click to{" "}
                       {thought.reactionCount ? "see" : "start"} destinations!
                     </p>  
                   </Link>
+                  <p className="mb-0">
+                    <a href={`${thought.linkURL}`} target="_blank" rel="noopener noreferrer">Link to Site (opens a new tab)</a>
+                  </p>
               </div>
 
             </div>
