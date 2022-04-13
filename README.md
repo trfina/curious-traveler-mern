@@ -40,11 +40,11 @@ clone the starter code<br>
 GitHub Username:
 trfina
 
-Additional Questions?  Contact me us:
-Cheri Merryman
-Tyler Hawkins
-Chuck DeBrosse
-finatammy@gmail.com
+Additional Questions?  Contact us:
+* Cheri Merryman
+* Tyler Hawkins
+* Chuck DeBrosse
+* finatammy@gmail.com
 
 <p align='center'><i>
    @ 2022 This README was generated with ❤️ Curious Traveler,</i></p>
