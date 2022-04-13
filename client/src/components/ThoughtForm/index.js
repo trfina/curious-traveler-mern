@@ -63,17 +63,22 @@ const ThoughtForm = () => {
         className="flex justify-center justify-space-between-md align-stretch m-3"
         onSubmit={handleFormSubmit}
       >
-        <input
-          className="form-input col-12 col-md-9"
-          type="text"
-          placeholder="www.destination.com"
-        />
         <textarea
           placeholder="Here's a curious travel spot..."
           value={thoughtText}
           className="form-input col-12 col-md-9"
           onChange={handleChange}
         ></textarea>
+        {/* <input
+          className="form-input col-12 col-md-9"
+          type="text"
+          placeholder="www.destination.com"
+        />
+        <input
+          className="form-input col-12 col-md-9"
+          type="text"
+          placeholder="image file goes here... work in progress"
+        /> */}
         <p
           className={`bg-primary text-light m-0 p-2 ${
             characterCount === 280 || error ? "text-error" : ""
