@@ -18,8 +18,6 @@ The link to the deployed application is here:
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
-* [Contributing](#contributing)
-* [Tests](#tests)
 * [Credits](#credits)
 * [License](#license)
 * [Questions](#questions)
@@ -38,7 +36,7 @@ clone the starter code<br>
 [![license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT/)
 
 ## Additional Questions? Contact us:
-### [Chuck DeBrosse](dmdebrosse@outlook.com)- 
+### [Chuck DeBrosse](cmdebrosse@outlook.com)- https://github.com/cmdebrosse
 ### [Tammy Fina](finatammy@gmail.com)- https://github.com/trfina/
 ### [Tyler Hawkins](gyhawkins24@gmail.com)- https://github.com/gthawkins24
 ### [Cheri Merryman](cmerryman1@kent.edu)- https://github.com/cmerrym1
