@@ -40,7 +40,7 @@ clone the starter code<br>
 ## Additional Questions? Contact us:
 ### [Chuck DeBrosse](dmdebrosse@outlook.com)- 
 ### [Tammy Fina](finatammy@gmail.com)- https://github.com/trfina/
-### [Tyler Hawkins](gyhawkins24@gmail.com)-
+### [Tyler Hawkins](gyhawkins24@gmail.com)- https://github.com/gthawkins24
 ### [Cheri Merryman](cmerryman1@kent.edu)- https://github.com/cmerrym1
 
 <p align='center'><i>
