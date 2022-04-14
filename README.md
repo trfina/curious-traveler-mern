@@ -9,11 +9,11 @@ Curious Traveler is created as a MERN stack single-page application. This applic
 
 The link to the deployed application is here:
 
-[Repository for this Project](https://github.com/trfina/curious-traveler-mern)
-[Heroku repostitory for this Project](https://github.com/trfina/curious-traveler-mern)
+### [Repository for this Project](https://github.com/trfina/curious-traveler-mern)
+### [Heroku repostitory for this Project](https://curious-traveler.herokuapp.com)
 
+![Curious Traveler Screen Shot](https://user-images.githubusercontent.com/12851682/163300086-d51f4eeb-c852-4c7f-bf9b-13b6fd69fe1a.png)
 
-![Finished Mock Up]
 
 ## Table of Contents
 * [Installation](#installation)
@@ -37,14 +37,11 @@ clone the starter code<br>
 
 [![license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT/)
 
-GitHub Username:
-trfina
-
-Additional Questions?  Contact us:
-* Cheri Merryman
-* Tyler Hawkins
-* Chuck DeBrosse
-* finatammy@gmail.com
+## Additional Questions? Contact us:
+### [Chuck DeBrosse](dmdebrosse@outlook.com)- 
+### [Tammy Fina](finatammy@gmail.com)- https://github.com/trfina/
+### [Tyler Hawkins](gyhawkins24@gmail.com)-
+### [Cheri Merryman](cmerryman1@kent.edu)-
 
 <p align='center'><i>
-   @ 2022 This README was generated with ❤️ Curious Traveler,</i></p>
+   @ 2022 This README was generated with ❤️ by the Curious Travelers</i></p>
