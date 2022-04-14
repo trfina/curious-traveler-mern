@@ -41,7 +41,7 @@ clone the starter code<br>
 ### [Chuck DeBrosse](dmdebrosse@outlook.com)- 
 ### [Tammy Fina](finatammy@gmail.com)- https://github.com/trfina/
 ### [Tyler Hawkins](gyhawkins24@gmail.com)-
-### [Cheri Merryman](cmerryman1@kent.edu)-
+### [Cheri Merryman](cmerryman1@kent.edu)- https://github.com/cmerrym1
 
 <p align='center'><i>
    @ 2022 This README was generated with ❤️ by the Curious Travelers</i></p>
